@@ -1,5 +1,10 @@
 package adapter;
 
+/**
+ * @author steve
+ * Example of adapter pattern. MediaAdapter extends the target (MediaPlayer) by adapting 
+ * FancyNewMediaPlayer. Appropriate behaviour is used from either target or adaptee.
+ */
 public class MediaAdapter extends MediaPlayer {
 	private FancyNewMediaPlayer newPlayer = new FancyNewMediaPlayer();
 	

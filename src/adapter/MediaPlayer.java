@@ -1,5 +1,10 @@
 package adapter;
 
+/**
+ * @author steve
+ * Example of adapter pattern. MediaPlayer is target, only knows how
+ * to play mp3.
+ */
 public class MediaPlayer {
 	 void play(String type){
 		 // just plays mp3

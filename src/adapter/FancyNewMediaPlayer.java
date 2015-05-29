@@ -1,5 +1,9 @@
 package adapter;
 
+/**
+ * @author steve
+ * Example of adapter pattern. This class is the adaptee
+ */
 public class FancyNewMediaPlayer {
 	public void playAAC() {
 		 System.out.println("Playing an aac on my shiny new media player");
