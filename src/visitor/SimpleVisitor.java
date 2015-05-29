@@ -1,6 +1,11 @@
 package visitor;
 
 
+/**
+ * @author steve
+ * Example of visitor pattern.
+ * SimpleVisitor outputs the element it's visiting
+ */
 public class SimpleVisitor extends ComponentVisitor {
 	public SimpleVisitor() {}
 	

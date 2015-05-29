@@ -2,6 +2,12 @@ package visitor;
 
 import java.util.Iterator;
 
+/**
+ * @author steve
+ * Example of visitor pattern.
+ * WeightVisitor on a Brick, just prints the details of that brick.
+ * On a Unit, iterates over the components in the unit and visits each.
+ */
 public class WeightVisitor extends ComponentVisitor {
 	private  String indent = "";
 	

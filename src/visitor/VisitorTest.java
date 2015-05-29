@@ -1,5 +1,10 @@
 package visitor;
 
+/**
+ * @author steve
+ * Sets up a collection of bricks, assembles into units,
+ * visits with a weightvisitor. 
+ */
 public class VisitorTest {
 	public static void main (String[] args) {
 		// Create bricks

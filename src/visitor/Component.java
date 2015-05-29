@@ -1,5 +1,12 @@
 package visitor;
 
+/**
+ * @author steve
+ * Example of visitor pattern.
+ * Brick, Unit and Component use composite pattern and define
+ * accept method to accept any ComponentVisitor. 
+ * Component is abstract class, Brick and Unit extend Component.
+ */
 public abstract class Component {
 	private String partNo;
 	public Component(String partNo) {
