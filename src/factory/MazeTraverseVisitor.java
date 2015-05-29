@@ -38,9 +38,9 @@ public class MazeTraverseVisitor extends MazeVisitor{
 		}
 	}
 
-	public void visit(Wall w) {} // probably do nothing at all
+	public void visit(Wall w) {} //  do nothing at all
 	
-	public void visit(Door d) { // visit the room on the other side if not already done so.
+	public void visit(Door d) { // visit the room on the other side 
 		d.getNextRoom().accept(this);
 	}
 	
