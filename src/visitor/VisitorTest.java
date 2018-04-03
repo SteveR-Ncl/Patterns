@@ -17,18 +17,22 @@ public class VisitorTest {
 		
 		
 		// Stick some together
-		Unit u1 = new Unit("Lump1");
+		Assembly u1 = new Assembly("Lump1");
 		u1.addComponent(b1);
 		u1.addComponent(b2);
 		u1.addComponent(b3);
-		Unit u2 = new Unit("Lump2");
+		Assembly u2 = new Assembly("Lump2");
 		u2.addComponent(b4);
 		u2.addComponent(b5);
-		Unit u3 = new Unit("Lump3");
+		Assembly u3 = new Assembly("Lump3");
 		u3.addComponent(b6);
 		u3.addComponent(u1);
 		u3.addComponent(u2);
 
+		
+		//Visit top node with a simple visitor.
+		SimpleVisitor sv = new SimpleVisitor();
+		u3.accept(sv);
 		
 		// Visit top node with a WeightVisitor.
 		WeightVisitor wv = new WeightVisitor();

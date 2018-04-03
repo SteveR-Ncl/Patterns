@@ -13,8 +13,8 @@ public class SimpleVisitor extends ComponentVisitor {
 		System.out.println("Visiting a brick with part number " + b.getPartNo());
 	}
 	
-	public void visit (Unit bb) {
-		System.out.println("Visiting a pile of bricks.");
+	public void visit (Assembly bb) {
+		System.out.println("Visiting a pile of bricks, which has " + bb.getComponents().size() + " components.");
 	}
 }
 

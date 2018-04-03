@@ -6,7 +6,7 @@ import java.util.Iterator;
  * @author steve
  * Example of visitor pattern.
  * WeightVisitor on a Brick, just prints the details of that brick.
- * On a Unit, iterates over the components in the unit and visits each.
+ * On an assembly, iterates over the components in the unit and visits each.
  */
 public class WeightVisitor extends ComponentVisitor {
 	private  String indent = "";
@@ -18,7 +18,7 @@ public class WeightVisitor extends ComponentVisitor {
 		System.out.println(indent + " Brick " + b.getPartNo() + ", weight " + b.getWeight() + ".");
 	}
 	
-	public void visit (Unit u) {
+	public void visit (Assembly u) {
 		Iterator<Component> it = u.getComponents().iterator();
 		indent = indent.concat("+");
 		System.out.println("------------");

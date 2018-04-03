@@ -8,13 +8,13 @@ import java.util.Iterator;
  * Example of visitor pattern.
  * Brick, Unit and Component use composite pattern and define
  * accept method to accept any ComponentVisitor. 
- * Component is abstract class, Brick and Unit extend Component.
+ * Component is abstract class, Brick and Assembly extend Component.
  */
-public class Unit extends Component {
+public class Assembly extends Component {
 	private ArrayList<Component> components;
-	public Unit (String partNo) {
+	public Assembly (String partNo) {
 		super(partNo);
-		components = new ArrayList<Component>();
+		components = new ArrayList<>();
 	}
 	
 	public void addComponent (Component c) {
