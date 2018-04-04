@@ -1,7 +1,7 @@
 package adapter;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of adapter pattern. MediaAdapter extends the target (MediaPlayer) by adapting 
  * FancyNewMediaPlayer. Appropriate behaviour is used from either target or adaptee.
  */

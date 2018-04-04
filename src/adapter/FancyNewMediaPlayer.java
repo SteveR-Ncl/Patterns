@@ -1,7 +1,7 @@
 package adapter;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of adapter pattern. This class is the adaptee
  */
 public class FancyNewMediaPlayer {

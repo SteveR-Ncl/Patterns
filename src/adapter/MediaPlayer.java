@@ -1,7 +1,7 @@
 package adapter;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of adapter pattern. MediaPlayer is target, only knows how
  * to play mp3.
  */

@@ -1,7 +1,7 @@
 package adapter;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of adapter pattern. Client knows nothing about
  * which class actually provides the service (MediaPlayer or FancyNewMediaPlayer).
  * Uses MediaAdapter instance as MediaPlayer.
