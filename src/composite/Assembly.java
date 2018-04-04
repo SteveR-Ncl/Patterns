@@ -3,7 +3,7 @@ package composite;
 import java.util.ArrayList;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of composite pattern.
  * Brick, Assembly and Component use composite pattern. 
  * Component is abstract class, Brick and Assembly extend Component.

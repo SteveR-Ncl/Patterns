@@ -2,7 +2,7 @@ package visitor;
 
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of visitor pattern.
  * SimpleVisitor outputs the element it's visiting
  */

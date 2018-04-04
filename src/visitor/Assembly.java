@@ -3,7 +3,7 @@ package visitor;
 import java.util.ArrayList;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of visitor pattern.
  * Brick, Assembly and Component use composite pattern and define
  * accept method to accept any ComponentVisitor. 

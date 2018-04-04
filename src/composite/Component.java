@@ -1,7 +1,7 @@
 package composite;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of composite pattern.
  *
  * Component is abstract class, Brick and Assembly extend Component.

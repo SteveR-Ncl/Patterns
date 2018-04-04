@@ -3,7 +3,7 @@ package visitor;
 import java.util.Iterator;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of visitor pattern.
  * FullVisitor traverses assembly of components and prints part numbers
  */

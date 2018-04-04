@@ -1,7 +1,7 @@
 package composite;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Example of composite pattern.
  * Brick, Assembly and Component use composite pattern 
  */

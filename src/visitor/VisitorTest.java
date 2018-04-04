@@ -1,9 +1,9 @@
 package visitor;
 
 /**
- * @author steve
+ * @author Steve Riddle
  * Sets up a collection of bricks, assembles into units,
- * visits with a weightvisitor. 
+ * visits with a Simple Visitor and a Full Visitor. 
  */
 public class VisitorTest {
 	public static void main (String[] args) {
