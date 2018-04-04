@@ -19,6 +19,5 @@ public abstract class Component {
 		this.partNo = partNo; 
 	}
 
-	public abstract double getWeight();
 	public abstract void accept(ComponentVisitor v);
 }

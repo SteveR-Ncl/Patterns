@@ -7,19 +7,10 @@ package visitor;
  * accept method to accept any ComponentVisitor
  */
 public class Brick extends Component {
-	private double weight;
-	public Brick(String partNo, double weight) {
+	public Brick(String partNo) {
 		super(partNo);
-		this.weight = weight;
 	}
 
-	public void setWeight(double weight) { 
-		this.weight = weight; 
-	}
-
-	public double getWeight() { 
-		return weight; 
-	}
 
 	public void accept (ComponentVisitor v) { 
 		v.visit(this);

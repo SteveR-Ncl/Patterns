@@ -8,12 +8,12 @@ package visitor;
 public class VisitorTest {
 	public static void main (String[] args) {
 		// Create bricks
-		Brick b1 = new Brick("Red001", 5.0);
-		Brick b2 = new Brick("Blue004", 2.0);
-		Brick b3 = new Brick("Red002", 8.0);
-		Brick b4 = new Brick("Green992", 10.0);
-		Brick b5 = new Brick("Blue011", 4.0);
-		Brick b6 = new Brick("Black001", 10.0);
+		Brick b1 = new Brick("Red001");
+		Brick b2 = new Brick("Blue004");
+		Brick b3 = new Brick("Red002");
+		Brick b4 = new Brick("Green992");
+		Brick b5 = new Brick("Blue011");
+		Brick b6 = new Brick("Black001");
 		
 		
 		// Stick some together
@@ -34,8 +34,8 @@ public class VisitorTest {
 		SimpleVisitor sv = new SimpleVisitor();
 		u3.accept(sv);
 		
-		// Visit top node with a WeightVisitor.
-		WeightVisitor wv = new WeightVisitor();
-		u3.accept(wv);
+		// Visit top node with a full visitor.
+		FullVisitor fv = new FullVisitor();
+		u3.accept(fv);
 	}
 }
