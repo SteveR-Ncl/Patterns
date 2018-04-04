@@ -31,10 +31,12 @@ public class VisitorTest {
 
 		
 		//Visit top node with a simple visitor.
+		System.out.println("Visiting with a Simple Visitor:");
 		SimpleVisitor sv = new SimpleVisitor();
 		u3.accept(sv);
 		
 		// Visit top node with a full visitor.
+		System.out.println("\nVisiting with a Full Visitor:");
 		FullVisitor fv = new FullVisitor();
 		u3.accept(fv);
 	}

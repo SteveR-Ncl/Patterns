@@ -7,7 +7,7 @@ import java.util.Iterator;
  * Example of visitor pattern.
  * FullVisitor traverses assembly of components and prints part numbers
  */
-public class FullVisitor extends ComponentVisitor {
+public class FullVisitor implements ComponentVisitor {
 	public FullVisitor() {}
 	
 	public void visit (Brick b) {
