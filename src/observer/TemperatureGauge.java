@@ -55,14 +55,6 @@ public class TemperatureGauge extends Observable {
 		this.classify();
 	}
 	
-	public void inc10Temp() {
-		reading += 10;
-		this.classify();
-	}
-	
-	public void dec10Temp() {
-		reading -= 10;
-		this.classify();
-	}
+
 	
 }

@@ -24,9 +24,9 @@ public class TestSubsSimple {
 		
 		thermometer.deleteObserver(w1);
 
-		System.out.println("Rapid cool down");
+		System.out.println("Cool down");
 		while(thermometer.getStatus() != "Frozen") {
-			thermometer.dec10Temp();
+			thermometer.decTemp();
 		}
 		
 	
